@@ -39,17 +39,9 @@ public class Project1 {
             project1B.init(x,a,b);
             project1B.calculate();
 
-
             System.out.println("Case #"+ i +":      " + project1A.getResult() + "       "+ project1B.getResult());
-
-
-
-
         }
-
     }
-
-
 
     public static class Project1A{
 
@@ -61,7 +53,6 @@ public class Project1 {
             this.x = x;
             this.a = a;
             this.b = b;
-
         }
 
         public void calculate() {
@@ -132,7 +123,6 @@ public class Project1 {
             this.x = x;
             this.a = a;
             this.b = b;
-
         }
 
         public void calculate() {
@@ -147,7 +137,6 @@ public class Project1 {
             result = result * ((float)(a)/(float)b);
             result = (float) Math.exp(result);
             result = balanceNegativity(result,neg);
-
         }
 
         private float balanceNegativity(float result, int neg) {
