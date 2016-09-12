@@ -13,7 +13,7 @@ In this approach, we first find the cube of the given real number x. After that,
 
 ## Approach number 2
 
-In this approach, we use the exponent/ log property. We first find the log of real number x using the in-built Math.log() method. The result is then passed as an argument to built-in exponential function Math.exp().
+In this approach, we use the exponent/ log property. We first find the log of real number x using the in-built Math.log(double) method. The result is then passed as an argument to built-in exponential function Math.exp(double).
 
 ## Installation
 
@@ -30,18 +30,20 @@ For each test case, output one line containing Case #i: y z, where i is the test
 ## Sample 
 
 **Input**
+```
 4
 2 3 5
 -5 3 5 
 4.393 3 5 
 -3.219 3 5
+```
 
 **Output**
-
+```
 Case #        Algorithm 1     Algorithm 2
 Case #1:      1.5157108       1.5157167
 Case #2:      -2.6265202       -2.6265278
 Case #3:      -2.4302666       -2.4302824
 Case #4:      -2.0166233       -2.0166597
-
+```
 
