@@ -1,4 +1,4 @@
-# EE4483-Project1
+# EE4486-Project1
 ## Synopsis
 
 This project is made for EE4483 course at Nanyang Technological University. This project is implemented in Java 7.
@@ -40,10 +40,10 @@ For each test case, output one line containing Case #i: y z, where i is the test
 
 **Output**
 ```
-Case #        Algorithm 1     Algorithm 2
-Case #1:      1.5157108       1.5157167
-Case #2:      -2.6265202       -2.6265278
-Case #3:      -2.4302666       -2.4302824
-Case #4:      -2.0166233       -2.0166597
+Case #        Algorithm 1     Algorithm 2     Actual Answer
+Case #1:      1.5157108       1.516           1.5157167
+Case #2:      -2.6265202      -2.626          -2.6265278
+Case #3:      -2.4302666      -2.43           -2.4302824
+Case #4:      -2.0166233      -2.017          -2.0166597
 ```
 
