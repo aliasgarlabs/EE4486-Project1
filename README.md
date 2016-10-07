@@ -13,7 +13,7 @@ In this approach, we first find the cube of the given real number x. After that,
 
 ## Approach number 2
 
-In this approach, we use the exponent/ log property. We first find the log of real number x using the in-built Math.log(double) method. The result is then passed as an argument to built-in exponential function Math.exp(double).
+In this approach, we use the Log property to find the 3/5th power of the real number x.   We first find log of x and multiply it by the exponent power.  Then we find the log inverse of the product obtained from above multiplication using the Inverse Log table. 
 
 ## Installation
 
